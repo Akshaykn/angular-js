@@ -1,5 +1,5 @@
 <h1> Log in</h1>
-<label><p>Server name:</p><input placeholder="server name" [(ngModel)]="servername"(input)="makeserverfalse()"></label>
+<label><p>Server name:</p><input placeholder="server name" [(ngModel)]="servername" (input)="makeserverfalse()"></label>
 <button  class="btn btn-primary" (click)="addServerName()" >Click</button>
 <p *ngIf = "serverbtnclick">server created sucessfully Server name is {{servername}} id: {{servercount}}</p>
 <button   class="btn btn-primary" (click)="showServers()">Show Servers</button>
