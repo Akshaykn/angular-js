@@ -1,0 +1,6 @@
+<p> using the event based getting the info and using the button clicked</p>
+<h1>LOG IN</h1>
+<label><p>Username:</p><input type="text" (input)="getInputName($event)"></label>
+<button (click)="showUserName()" [disabled]="!removeDisable()"> Click  </button>
+<p>this is event based getting the input  display the output using the  [innerText ]properties</p>
+<h1 [innerText]="username"></h1>
